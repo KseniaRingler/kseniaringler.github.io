@@ -1,0 +1,49 @@
+.header {
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 60px auto;
+}
+.header span {
+  display: block;
+}
+.form {
+  border: 5px solid rgb(120, 121, 211);
+  padding: 30px 20px;
+  height: 315px;
+}
+.form-header, .selection-header {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.form-btn {
+  margin: 10px auto;
+  background-color: 120, 121, 211;
+}
+.form input {
+  margin-top: 11px;
+}
+.celection {
+  padding: 30px 0;
+ 
+  
+}
+.feature {
+  margin: 60px auto;
+}
+.selection-header {
+  margin-top: 60px;
+}
+.feature p {
+  margin-top: 20px;
+ 
+}
+.video {
+  margin-bottom: 30px;
+ 
+
+}
+.feature-box {
+  height: 180px;
+}
+
