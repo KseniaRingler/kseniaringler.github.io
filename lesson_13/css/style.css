@@ -1,0 +1,28 @@
+/*Color*/
+/*Basic seting (базовые настройки)*/
+html {
+  font-size: 10px;
+}
+.button {
+  background-color: #fcb303;
+  color: #ffffff;
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  text-transform: uppercase;
+  margin-top: auto;
+}
+.phone-link {
+  display: inline-block;
+  color: #1a1820;
+  font-weight: 700;
+  font-size: 2rem;
+}
+/*Typography (типография)*/
+section {
+  padding: 10rem 0;
+  /*1 rem = 10 px*/
+}
+/*mane*/
+main {
+  padding: 3rem 0;
+}
