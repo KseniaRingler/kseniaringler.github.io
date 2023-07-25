@@ -7,6 +7,6 @@
 
 [Урок 13](https://kseniaringler.github.io/lesson_13/ "Шапка сайта") - верстка шапки сайта
 
-[Урок 14](https://kseniaringler.github.io/lesson_14/ "Шапка сайта") - верстка первого экрана сайта
+[Урок 14](https://kseniaringler.github.io/lesson_14/ "Экран сайта") - верстка первого экрана сайта
 
-
+[Урок 15](https://kseniaringler.github.io/lesson_15/ "Экран сайта") - адаптация первого экрана сайта
