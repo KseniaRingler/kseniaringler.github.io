@@ -9,4 +9,4 @@
 
 [Урок 14](https://kseniaringler.github.io/lesson_14/ "Шапка сайта") - верстка первого экрана сайта
 
-[Урок 15](https://kseniaringler.github.io/lesson_15/ "Шапка сайта") - адаптация первого экрана сайта 
+
