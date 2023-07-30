@@ -10,3 +10,6 @@
 [Урок 14](https://kseniaringler.github.io/lesson_14/ "Экран сайта") - верстка первого экрана сайта
 
 [Урок 15](https://kseniaringler.github.io/lesson_15/ "Экран сайта") - адаптация первого экрана сайта
+
+[Урок 16](https://kseniaringler.github.io/lesson_16/ "Экран сайта") - верстка секции с реимуществами используя слайдер clisk
+
