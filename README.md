@@ -13,6 +13,6 @@
 
 [Урок 16](https://kseniaringler.github.io/lesson_16/ "Экран сайта") - верстка секции с реимуществами используя слайдер clisk
 
-[Урок 17](https://kseniaringler.github.io/lesson_17/ "Экран сайта") - верстка секции с реимуществами используя слайдер clisk
+[Урок 17](https://kseniaringler.github.io/lesson_17/ "Экран сайта") - верстка секции с реимуществами используя слайдер clisk (адаптация)
 
 
