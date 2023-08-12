@@ -1,0 +1,77 @@
+d<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/favicon.ico">
+    <title>Табы и аккордион для сайта</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="tabs">
+        <!-- Кнопки -->
+        <ul class="tabs-nav">
+          <li><a href="#tab-1">Вход</a></li>
+		      <li><a href="#tab-2">Регистрация</a></li>
+        </ul>
+        <!-- Контент -->
+        <div class="tabs-items">
+          <div class="tabs-item" id="tab-1">
+            <div class="form">
+              <div class="mb-3">
+                <input name="login" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваше имя">
+              </div>
+              <div class="mb-3">
+                <input name="pass" class="form-control" id="exampleInputPassword1" placeholder="Пароль">
+              </div>
+              <div class="mb-3 form-forgot">
+                <a href="#">Забыли пароль?</a>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Напомнить мне</label>
+              </div>
+              <button type="submit" class="btn btn-danger">Войти</button>
+            </div>
+          </div>
+          <div class="tabs-item" id="tab-2">
+            <strong>Регистрация</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(function() {
+        var tab = $('#tabs .tabs-items > div'); 
+	      tab.hide().filter(':first').show();
+        /* Клики по вкладкам */
+        $('#tabs .tabs-nav a').click(function(){
+          tab.hide(); 
+		      tab.filter(this.hash).show(); 
+		      $('#tabs .tabs-nav a').removeClass('active');
+		      $(this).addClass('active');
+		      return false;
+        }).filter(':first').click();
+        /* Клики по якорным ссылкам */
+        $('.tabs-target').click(function(){
+          $('#tabs .tabs-nav a[href=' + $(this).attr('href')+ ']').click();
+        });
+        /* Отрытие вкладки из хеша URL */
+        if(window.location.hash){
+          $('#tabs-nav a[href=' + window.location.hash + ']').click();
+          window.scrollTo(0, $("#" . window.location.hash).offset().top);
+	      }
+     });
+    </script>
+  
+  </body>
+</html>
+
