@@ -1,0 +1,65 @@
+.accordion_header {
+  text-align: center;
+  text-transform: uppercase;
+}
+.header {
+  font-size: 36px;
+  font-weight: 700;
+  color: #0bbaf0;
+}
+.paragraph {
+  font-size: 24px;
+  font-weight: 450;
+  margin-top: -0.5rem;
+  color: #37c5f2;
+}
+.line {
+  width: 126px;
+  margin: 0 auto;
+  color: #6b7f8a;
+}
+#accordeon {
+	width: 100%;
+	border: 10px solid #fff;
+	margin: 10px;
+}
+.acc-heade {
+  padding: 5px 10px;
+	background: #0bbaf0;
+  color: #ffffff;
+	cursor: pointer;
+  margin-top: 3px;
+  font-size: 25px;
+  text-align: center;
+}
+.ac-bodye {
+  width: 98%;
+  margin-left: 1%;
+  padding: 10px 30px;
+	border: 3px solid #dcdcdc;
+  border-top: none;
+	margin-bottom: 0.3px;
+  border-radius: 7px;
+	display: none;
+  font-size: 22px;
+}
+.acc-head {
+	padding: 5px 10px;
+	background: #0bbaf0;
+  color: #ffffff;
+	cursor: pointer;
+  margin-top: 3px;
+  font-size: 25px;
+  text-align: center;
+}
+.acc-body {
+  width: 98%;
+  margin-left: 1%;
+	padding: 10px 30px;
+	border: 3px solid #dcdcdc;
+  border-top: none;
+	margin-bottom: 0.3px;
+  border-radius: 7px;
+	display: none;
+  font-size: 22px;
+}
