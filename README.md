@@ -25,4 +25,4 @@
 
 [Урок 21](https://kseniaringler.github.io/tabs/src/) - верстка таба
 
-[Урок 22](kseniaringler.github.io/lesson_20/) - верстка блока с ценами
+[Урок 22](https://kseniaringler.github.io/lesson_20/) - верстка блока с ценами
