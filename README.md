@@ -24,3 +24,5 @@
 [Урок 20](https://kseniaringler.github.io/accordion/src/) - аккордион на языке Jquery
 
 [Урок 21](https://kseniaringler.github.io/tabs/src/) - верстка таба
+
+[Урок 22](kseniaringler.github.io/lesson_20/src/) - верстка блока с ценами
