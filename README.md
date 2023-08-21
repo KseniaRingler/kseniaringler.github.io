@@ -26,3 +26,5 @@
 [Урок 21](https://kseniaringler.github.io/tabs/src/) - верстка таба
 
 [Урок 22](https://kseniaringler.github.io/lesson_20/) - верстка блока с ценами
+
+[Урок 23](https://kseniaringler.github.io/lesson_21/) - адаптировала под различные устройства
