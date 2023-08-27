@@ -28,3 +28,5 @@
 [Урок 22](https://kseniaringler.github.io/lesson_20/) - верстка блока с ценами
 
 [Урок 23](https://kseniaringler.github.io/lesson_21/) - адаптировала под различные устройства
+
+[Урок 24](kseniaringler.github.io/lesson_ 22/) - анимация на css3
