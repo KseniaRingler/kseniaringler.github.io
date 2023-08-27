@@ -1,0 +1,48 @@
+/* Ключевые кадры анимации */
+
+@keyframes move {
+	/* первый кадр */
+	from {
+		margin-left: 0;
+	}
+	/* промежуточные кадры аимации */
+	/* 10% {
+		margin-left: 20px;
+	} */
+	/* конечный кадр анимации */
+	to {
+		margin-left: 400px;
+	}
+}
+
+@keyframes bg-color {
+	from {
+		background-color: red;
+	}
+	to {
+		background-color: blue;
+	}
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	/* имя анимации */
+	/* animation-name: move; */
+	/* количество секунд */
+	/* animation-duration: 5s; */
+	/* Готовые временные функции. анимация будет происходить равномерно по мере всех кадров. Без ускорения и замедления*/
+	/* animation-timing-function: linear;  *//* ease - анимация разгоняется и к концу замедляется. ease-in -- медленно начинается и к концу разгоняется. ease-in-out --медленно начинается, разгояется и замедляется в конце */
+	/* animation-timing-function: cubic-bezier(.07,1.46,.98,-0.42); */
+	/* задержка анимации. Через какое количество секунд эта анимация проиграется*/
+	/* animation-delay: 2s; */
+	/* направление анимации */
+	/* animation-direction: normal; */ /* normal - анимация идет в одном направлении. reverse - с конца в начало, обратная */
+	/* повтор анимации */
+	/* animation-iteration-count: 2; */ /* infinite - бесконено */
+
+	/* множественные анимации. Для одного элемента можно задавать несколько анимаций, перечислив их названия через запятую */
+	/* animation: move 3s linear forwards, bg-color 3s linear forwards; */
+	
+}
