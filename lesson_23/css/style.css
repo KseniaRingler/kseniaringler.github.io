@@ -1,0 +1,106 @@
+#tabs {
+	margin: 10px 0;
+}
+.tabs-nav {
+	overflow: hidden;
+	margin: -1px;
+	padding: 0;
+}
+.tabs-nav li {
+	display: block;
+	float: left;
+	padding: 0;
+	list-style: none;
+}
+.tabs-nav a {
+	display: block;
+	padding: 4px 30px;
+	border-top: 1px solid #ccc;  
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+	background: #fbfbfb; 
+	font-size: 24px;
+	text-decoration: none;
+	text-align: center;
+	color: #080808;
+}	
+.tabs-nav li:first-child a {
+	border-radius: 7px 7px 0 0; 
+  margin-right: 10px;
+}
+.tabs-nav li:last-child a {
+	display: block;
+	border-right: 1px solid #ccc;
+	border-radius: 7px 7px 0 0; 
+}
+.tabs-nav a.active {
+	border-bottom: solid 1px #03a5da;
+	background: #03a5da;
+	color: #ffffff;
+  text-shadow: 2px 3px 4px #01506a;
+}    
+.tabs-items {
+  margin-top: 1px;
+  width: 630px;
+  height: 375px;
+	border: none;
+	border-radius: 7px 7px 7px 7px;
+	background: #03a5da;
+  margin-left: -27px;
+  padding: 10px;
+}
+.tabs-item {
+	padding: 15px;
+}
+
+
+.form {
+  background-color: #000000;
+  padding: 50;
+  border-radius: 7px;
+}
+.form-control {
+  background: #1e1d1d;
+  border: none;
+  color: #f4f4f4;
+  width: 480px;
+  height: 58px;
+  font-size: 24px;
+}
+.form-control:focus {
+  background-color: #332d2d;
+  color: #f4f4f4;
+
+}
+.form-forgot a {
+  color: #a11702;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+.form-check {
+  margin-left: 15px;
+}
+#exampleCheck1 {
+  position: absolute;
+  margin-top: 50px;
+  border-radius: 0;
+  height: 10px;
+  width: 10px;
+}
+.form-check-label {
+  position: absolute;
+  margin-top: 43px;
+  color: #5f5d5d;
+}
+.btn {
+  position: absolute;
+  background: #8d0a01;
+  border: none;
+  border-radius: 0;
+  font-size: 24px;
+  padding: 3px 30px 5px 30px;
+  margin-left: 28.3rem;
+  margin-top: -0.5rem;
+
+}
