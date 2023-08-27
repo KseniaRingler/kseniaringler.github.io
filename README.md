@@ -30,3 +30,5 @@
 [Урок 23](https://kseniaringler.github.io/lesson_21/) - адаптировала под различные устройства
 
 [Урок 24](kseniaringler.github.io/lesson_ 22/) - анимация на css3
+
+[Урок 25](https://kseniaringler.github.io/lesson_23/) - анимация элементов таблицы регистрации
