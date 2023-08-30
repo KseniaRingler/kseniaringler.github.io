@@ -32,3 +32,5 @@
 [Урок 24](kseniaringler.github.io/lesson_ 22/) - анимация на css3
 
 [Урок 25](https://kseniaringler.github.io/lesson_23/) - анимация элементов таблицы регистрации
+
+[Урок 26](https://kseniaringler.github.io/lesson_24/) - верстка блока с отзывами
