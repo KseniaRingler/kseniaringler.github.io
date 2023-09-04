@@ -34,3 +34,5 @@
 [Урок 25](https://kseniaringler.github.io/lesson_23/) - анимация элементов таблицы регистрации
 
 [Урок 26](https://kseniaringler.github.io/lesson_24/) - верстка блока с отзывами
+
+[Урок 27](https://kseniaringler.github.io/lesson_25/) - видео-фон для сайта
