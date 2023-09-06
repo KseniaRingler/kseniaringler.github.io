@@ -1,0 +1,503 @@
+/* Fonts family */
+@font-face {
+  font-family: 'ProximaNova_reg';
+  src: url('../fonts/');
+  src: url('../fonts/?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Regular.woff2') format('woff2'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype'), url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ProximaNova_bold';
+  src: url('../fonts/ProximaNova-Bold.eot');
+  src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Bold.woff2') format('woff2'), url('../fonts/ProximaNova-Bold.woff') format('woff'), url('../fonts/ProximaNova-Bold.ttf') format('truetype'), url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+/*Базовые цвета*/
+/* цвет кнопок */
+/* цвет иконок */
+/* цвет фона */
+/* Базовые настройки */
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'ProximaNova_reg', sans-serif;
+}
+a:hover {
+  text-decoration: none;
+}
+/* Используем псевдокласс focus для того, чтобы выключить обводку */
+button:focus,
+input:focus,
+a:focus,
+textarea:focus {
+  outline: none;
+}
+.button {
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  background-color: #fcb303;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  transition: all 0.2s;
+}
+.button:hover {
+  cursor: pointer;
+  /* background-color: lighten(@btn-color, 10%); сделать светлее*/
+  background-color: #e3a103;
+}
+.phone-link {
+  display: inline-block;
+  font-family: 'ProximaNova_bold', sans-serif;
+  text-decoration: none;
+  /* font-weight: 900; */
+  font-size: 1.6rem;
+  color: #1a1820;
+  /*   height: 7rem;
+  line-height: 7rem; */
+}
+/* Оформление форм */
+.form {
+  /* Поле для ввода */
+  /* Подписи к полям */
+}
+.form-input {
+  display: block;
+  width: 100%;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  padding: 1.5rem;
+}
+.form label {
+  position: relative;
+  top: 15px;
+  display: inline-block;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  background-color: #fff;
+  /* border: 1px solid red; */
+}
+.form-btn {
+  display: block;
+  /* margin-top: 3rem; */
+  height: 5.5rem;
+  margin-top: 3rem;
+  width: 100%;
+  font-size: 1.6rem;
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  background-color: #fcb303;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+}
+/* Заголовки */
+section {
+  padding: 10rem 0;
+}
+.section-header {
+  margin: 2rem 0 10rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 3.6rem;
+  text-align: center;
+}
+.section-header_light {
+  color: #fff;
+  margin-top: 0;
+}
+.section-header_light h2 {
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 3.6rem;
+  margin-bottom: 4rem;
+}
+.section-header_light p {
+  font-size: 1.4rem;
+}
+.main {
+  margin-top: -1.5rem;
+  padding: 2rem 0 5rem;
+  background: #fff url(../img/main-bg.jpg) center center no-repeat;
+  background-size: cover;
+  /* Подзаголовок */
+  /* Зеленый ярлык */
+  /* Оплата по факту */
+  /* Главная форма */
+}
+.main-content {
+  margin-top: 6rem;
+  /* Главный загаловок */
+}
+.main-content h1 {
+  margin-top: 0;
+  margin-bottom: 3rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.45;
+  /* межстрочный интервал */
+  text-transform: uppercase;
+}
+.main-subtitle {
+  margin-bottom: 4rem;
+  font-size: 2.4rem;
+}
+.main span {
+  display: inline-block;
+  padding: 2rem 4.1rem;
+  font-size: 1.8rem;
+  color: #fff;
+  background-color: #46b814;
+  text-align: center;
+  /* Цифра "300" рублей */
+}
+.main span strong {
+  font-size: 3rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+}
+.main-trigger {
+  display: block;
+  margin-top: 3rem;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-family: 'ProximaNova_bold', sans-serif;
+}
+.main-form {
+  background-color: #fff;
+  margin-top: 1.4rem;
+  padding: 2rem 3rem;
+  text-align: center;
+  /* Заголовок формы */
+  /* Подпись под кнопокой */
+}
+.main-form-header {
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+.main-form-header strong {
+  font-size: 1.9rem;
+}
+.main-form small {
+  display: block;
+  margin-top: 1.5rem;
+}
+/* .header {
+  height: 7rem;
+} */
+/* .wrap {
+  display: table;
+  width: 100%;
+  height: 7rem;
+  &-block {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+ */
+/* Оформление секции с преимуществами */
+.features-block {
+  text-align: center;
+}
+.features-block h3 {
+  font-size: 2rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+  margin-bottom: 3rem;
+}
+.features-block p {
+  display: inline-block;
+  width: 90%;
+  font-size: 1.5rem;
+}
+.features-img {
+  height: 8rem;
+  margin-bottom: 3rem;
+}
+.features-img img {
+  display: block;
+  margin: 0 auto;
+}
+.arrow {
+  top: 21%;
+  transform: translateY(-50%);
+  position: absolute;
+  z-index: 99;
+  width: 3rem;
+  height: 4rem;
+  border: none;
+}
+.prev {
+  left: 0;
+  background: url(../img/left-arrow.svg) center no-repeat;
+  background-size: 60%;
+}
+.next {
+  right: 0;
+  background: url(../img/right-arrow.svg) center no-repeat;
+  background-size: 60%;
+}
+/* Секция с ценами */
+.price {
+  background: #46b814 url(../img/prices_bg/prices_bg.jpg) center;
+  margin-top: -35rem;
+  /* Карточки с тарифами */
+}
+.price-header-btn {
+  margin-top: 1rem;
+  /* float: right; выравнивание к правой стороне*/
+}
+.price-button {
+  text-align: right;
+}
+.price-block {
+  padding: 2rem 3rem 4rem;
+  min-height: 65rem;
+  background-color: #fff;
+  box-shadow: 7px 12px 21px 0px rgba(0, 0, 0, 0.17);
+  text-align: center;
+}
+.price-block h4 {
+  margin: 4rem 0;
+  font-size: 1.9rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+}
+.price-block img {
+  width: 100%;
+  max-width: 30rem;
+  display: inline-block;
+  margin-bottom: 3rem;
+}
+.price-tag {
+  display: block;
+  margin-bottom: 2rem;
+  font-size: 1.9rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+}
+.price-list {
+  padding: 0;
+  list-style: none;
+  min-height: 14rem;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  /* 		list-style-position: inside;
+		list-style-image: url(../img/prices_bg/Forma\ 1.svg); */
+}
+.price-list li:before {
+  content: '';
+  display: inline-block;
+  margin-right: 1rem;
+  margin-top: -0.5rem;
+  width: 1.3rem;
+  height: 1.3rem;
+  background: url(../img/prices_bg/Forma\ 1.svg) no-repeat center;
+  background-size: 100%;
+  vertical-align: middle;
+}
+/* Секция с отзывами */
+.feedback {
+  position: relative;
+  background: url(../img/feedback/feedback-bg.jpg) no-repeat center;
+  background-size: cover;
+  /* Оформление обратной связи */
+}
+.feedback-prev-btn {
+  left: -4rem;
+}
+.feedback-next-btn {
+  right: -4rem;
+}
+.feedback-text {
+  /* position: relative; */
+  margin-top: 3rem;
+  margin-left: 3rem;
+  padding: 0.5rem;
+  border: 2px solid #46b814;
+  font-size: 10px;
+  font-style: italic;
+}
+.feedback-text::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -2rem;
+  left: 5rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: #fff;
+  border: 2px solid #46b814;
+  border-bottom: none;
+  border-top-right-radius: 100px;
+  transform: skewX(50deg);
+}
+.feedback-slider {
+  padding: 5rem 6rem;
+  height: 50rem;
+  background-color: #fff;
+  box-shadow: 6px 13px 10px 10px rgba(0, 0, 0, 0.11);
+}
+.feedback-slider .media {
+  display: inline-block;
+  font-size: 1.4rem;
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+.feedback-slider .media h4 {
+  font-family: 'ProximaNova_bold', sans-serif;
+}
+.feedback-slider .media-body {
+  margin-left: 7rem;
+  margin-top: -4.5rem;
+}
+.feedback-slider p {
+  font-size: 1.6rem;
+  margin-left: 3rem;
+}
+.feedback-slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4rem;
+  height: 5rem;
+  background-color: #46b814;
+  border: none;
+}
+.feedback-slider-btn img {
+  width: 50%;
+}
+.feedback-form {
+  background-color: #fff;
+  margin-top: 8rem;
+  padding: 5rem 15rem;
+  text-align: center;
+}
+.feedback-form h3 {
+  font-size: 1.8rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+}
+.feedback-btn {
+  max-width: 22rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+.hand {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 30%;
+}
+/* Оформление модальных окон */
+.popup {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup-content {
+  position: fixed;
+  left: 50%;
+  top: 10%;
+  background-color: #fff;
+  transform: translateX(-50%);
+  padding: 3rem 5rem;
+}
+.popup-header {
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 18px;
+  margin-bottom: 0rem;
+}
+.popup p {
+  font-size: 18px;
+  line-height: 2rem;
+}
+.popup-form {
+  margin-top: -1rem;
+  padding: 0;
+}
+.popup-close {
+  position: absolute;
+  top: -2.2rem;
+  right: -2rem;
+  width: 2rem;
+  text-align: center;
+  border: none;
+  /* сделать фон прозрачным */
+  background-color: transparent;
+  font-size: 4rem;
+  color: #fff;
+}
+.popup-content {
+  text-align: center;
+}
+@media (max-width: 1199px) {
+  .feedback-form {
+    padding: 3rem 5rem;
+  }
+  .fotorama {
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 991px) {
+  .main {
+    margin-top: -2rem;
+  }
+  .section-header_light {
+    margin-bottom: 2rem;
+  }
+  .price-button {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .price-block {
+    margin-top: 2rem;
+  }
+  .feedback-slider {
+    height: 95rem;
+  }
+}
+@media (max-width: 767px) {
+  .main {
+    margin-top: -2rem;
+    background-position: top left;
+  }
+  .main-title {
+    text-align: center;
+  }
+  .header-btn {
+    font-size: 1rem;
+    padding: 1rem 1rem;
+  }
+  .feedback-slider {
+    height: 87rem;
+  }
+}
+@media (max-width: 575px) {
+  .logo {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .phone-link {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+  .header-btn {
+    margin: 0 auto;
+  }
+  .main-title h1 {
+    font-size: 2.5rem;
+    margin-top: -2rem;
+  }
+  .section-header {
+    font-size: 2.3rem;
+  }
+  .section-header {
+    margin-top: -3rem;
+  }
+}
