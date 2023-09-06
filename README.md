@@ -36,3 +36,5 @@
 [Урок 26](https://kseniaringler.github.io/lesson_24/) - верстка блока с отзывами
 
 [Урок 27](https://kseniaringler.github.io/lesson_25/) - видео-фон для сайта
+
+[Урок 28](https://kseniaringler.github.io/%D1%83%D1%80%D0%BE%D0%BA_26/) - доверстала блок с отзывами
