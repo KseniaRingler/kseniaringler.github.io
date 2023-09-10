@@ -40,3 +40,5 @@
 [Урок 28](https://kseniaringler.github.io/lesson_26/) - доверстала блок с отзывами
 
 [Урок 29](https://kseniaringler.github.io/lesson_27/) - эффект паралакс
+
+[Урок 30](https://kseniaringler.github.io/lesson_28/) - эффект релакс
