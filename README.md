@@ -38,3 +38,5 @@
 [Урок 27](https://kseniaringler.github.io/lesson_25/) - видео-фон для сайта
 
 [Урок 28](https://kseniaringler.github.io/lesson_26/) - доверстала блок с отзывами
+
+[Урок 29](https://kseniaringler.github.io/lesson_27/) - эффект паралакс
